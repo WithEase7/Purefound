@@ -1,0 +1,118 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.background-1 {
+  /* border: 0.1px solid blueviolet; */
+  background-image: url("../images/background-pics/plane.png");
+  background-size: 100% 100%;
+  background-attachment: fixed;
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  overflow: auto;
+  /* background-color: rgb(168, 167, 167); */
+}
+
+h4 {
+  color: #2373f5;
+}
+.details-1 {
+  display: flex;
+  justify-content: space-around;
+  /* border: 1px solid red; */
+}
+.address-1 {
+  flex-basis: 30%;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.sub-1 {
+  margin: 2rem 0;
+  padding: 1rem;
+}
+.p-1 {
+  color: black;
+}
+.heading-1 {
+  color: rgb(0, 0, 0);
+  font-size: 2rem;
+  text-align: center;
+  font-weight: 400;
+  margin-bottom: 5rem;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.message-1 {
+  width: 50%;
+  background-color: white;
+  /* border: 1px solid black; */
+  padding: 2rem;
+  box-shadow: -5px 5px 10px 10px rgba(0, 0, 0, 0.473);
+  border-radius: 0.5rem;
+}
+.send-1 {
+  margin-bottom: 2rem;
+  font-weight: 500;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.submit-1 {
+  border: none;
+  outline: none;
+  padding: 0.5rem 1rem;
+  color: white;
+  background-color: #2373f5;
+  font-weight: 500;
+  border-radius: 0.2rem;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  border-radius: 1rem;
+}
+.submit-1:hover {
+  cursor: pointer;
+  box-shadow: -1px 1px 10px 1px #2373f5;
+  transition: 0.1s;
+}
+.input-1 {
+  padding: 0.5rem;
+  display: block;
+  width: 100%;
+  outline: none;
+  background-color: inherit;
+  border: none;
+  border-bottom: 1px solid #2373f5;
+  margin-bottom: 2rem;
+}
+@media screen and (max-width: 768px) {
+  .details-1 {
+    flex-direction: column-reverse;
+  }
+  .address-1,
+  .message-1 {
+    margin-bottom: 2rem;
+  }
+  .message-1 {
+    width: 100%;
+  }
+  .main-1 {
+    margin: 5rem;
+  }
+}
+@media screen and (max-width: 580px) {
+  .main-1 {
+    margin: 3rem;
+  }
+  .heading-1 {
+    font-size: 1.5rem;
+  }
+  .send-1 {
+    font-size: 1rem;
+  }
+}
+@media screen and (min-width: 968px) {
+  .main-1 {
+    margin: 3rem;
+  }
+}
